@@ -1,6 +1,9 @@
 {
   "name": "node",
-  "image": "ghcr.io/hankei6km/h6-dev-containers:node",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
   "runArgs": ["--privileged"],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
