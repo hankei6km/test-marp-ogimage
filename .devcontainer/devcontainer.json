@@ -24,7 +24,7 @@
   ],
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode"],
+      "extensions": ["esbenp.prettier-vscode", "marp-team.marp-vscode"],
       "settings": {
         "[typescript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
