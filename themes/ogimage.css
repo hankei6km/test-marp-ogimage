@@ -1,0 +1,47 @@
+/**
+ * @theme ogimage
+ * @size 1.91:1 1200px 630px
+ * @size github 1280px 640px
+ */
+
+@import 'gaia';
+
+section {
+  width: 1200px;
+  height: 630px;
+}
+
+section.gaia{
+  background-color: 	royalblue;
+}
+
+section h1 {
+  /*
+    https://github.com/marp-team/marp-core/blob/a012c7b722843fd8e5b38b04fb32eb91a8866172/themes/gaia.scss#L30-L50
+  */
+  max-height: 4.5em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: left;
+}
+
+
+section footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+
+img[alt="avatar"] {
+  object-fit: contain;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}

@@ -1,0 +1,12 @@
+/**
+ * @theme ogimage_size
+ * @size 1.91:1 1200px 630px
+ * @size github 1280px 640px
+ */
+
+@import 'gaia';
+
+section {
+  width: 1200px;
+  height: 630px;
+}
