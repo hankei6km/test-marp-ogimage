@@ -26,6 +26,10 @@
     "vscode": {
       "extensions": ["esbenp.prettier-vscode", "marp-team.marp-vscode"],
       "settings": {
+        "markdown.marp.themes": [
+          "./themes/ogimage.css",
+          "./themes/ogimage_size.css"
+        ],
         "[typescript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
