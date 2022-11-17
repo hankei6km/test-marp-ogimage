@@ -15,7 +15,7 @@ section.ogimage{
   background-color: 	whitesmoke;
 }
 
-section h1 {
+section.clamp h1 {
   /*
     https://github.com/marp-team/marp-core/blob/a012c7b722843fd8e5b38b04fb32eb91a8866172/themes/gaia.scss#L30-L50
   */
@@ -24,7 +24,6 @@ section h1 {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-align: left;
 }
 
 
