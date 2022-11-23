@@ -1,7 +1,8 @@
-FROM ghcr.io/hankei6km/h6-dev-containers:node
+# https://github.com/devcontainers/images/tree/main/src/typescript-node
+FROM mcr.microsoft.com/devcontainers/typescript-node
 
 
-ARG USERNAME=vscode
+ARG USERNAME=node
 
 USER root
 # Install google-chrome
